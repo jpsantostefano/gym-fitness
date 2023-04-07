@@ -57,7 +57,7 @@ span {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding: 80px 0px 30px 0px;
+    padding: 70px 0px 30px 0px;
 }
 
 .container {
@@ -65,7 +65,7 @@ span {
 }
 
 
-/* index */
+/* INDEX */
 .text-center{
     margin: auto;
     padding: 0 15px 0 15px;
@@ -116,7 +116,7 @@ span {
     height: 180px;
     width: 270px;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .container-routine{
@@ -148,11 +148,69 @@ table, th, td {
 }
 
 
+/* SIGN UP */
 
 
+.box-price {
+    display: flex;
+    justify-content: center;
+    
+}
 
+#form-box{
+    height: 250px;
+}
 
+.box-signup{
+    height: 170px;
+    width: 60%;
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+    text-align: center;
+}
 
+#box-signup{
+    padding: 30px 0;
+}
+
+.banner{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(113, 51, 51);
+    
+}
+
+.box-text{
+    padding-top: 20px;
+    margin: 0;
+}
+
+#box-right{
+    margin: 40px 0px;
+}
+
+#box-left{
+    margin: 5px 0px 40px 0;
+}
+
+#form-box{
+    width: 90%;
+}
+
+form {
+    padding: 20px 3px;
+}
+
+.label{
+    padding: 10px;
+    text-align: left;
+}
+
+#submit{
+    text-align: center;
+    padding-top: 15px;
+}
 
 /*General Footer*/
 
@@ -200,15 +258,11 @@ ul {
 }
 
 
+/* Media queries */
 
 
-@media screen and (min-width: 320px) {
-    .container{
-        max-width:760px;
-    }  
-}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
     .container{
     max-width:1024px;
     }
@@ -220,24 +274,12 @@ ul {
     }
     .display-flex{
         flex-direction: row;
-    gap: 40px;
+        gap: 40px;
     }
     
 
 }
 
-@media screen and(min-width: 1024px) {
-    .container{
-    max-width:1440px;
-    }
-
-}
-
-@media screen and (min-width: 1440px) {
-    .container{
-    max-width:1440px;
-    }
-}
 
 @media screen and (min-width:960px) {
     .row{
