@@ -1,0 +1,47 @@
+#afuera{
+    background-color: black;
+    width: 1000px;
+    height: 900px;
+    
+    /* opcion 3
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+
+    /* opcion 4
+    display: flex;
+    justify-content: center;
+    */
+
+    display: flex;
+}
+
+
+#adentro{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+
+    margin-left: auto;
+    margin-top: auto;
+    /*opcion 4
+    align-self: center;
+    */
+
+    /* opcion 1
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    */
+
+    /*opcion 2
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    */
+}
