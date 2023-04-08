@@ -1,53 +1,43 @@
 
 /* Navigation */
 
-.nav-logo {
-    padding: 0px;
-    color: white;
-    font-size: 20px;
-    margin: 0;
-}
-
-#nav-logo {
-    padding: 0;
-    font-size: 20px;
-    margin: 0;
-
-}
-
-body{
-    margin: 0px;
-    overflow-x: hidden;
-}
-header{
-    background-color: rgb(113, 51, 51);
-
-}
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     text-align: center;
     line-height: 70px;
     font-size: 20px;  
+    color: white;
     margin: 0;
-    flex-direction: column;
+    padding: 0;
 }
 
-nav > span{
-    color: white;
-    margin: 0 5px 0 50px;
+#fitness-club{
+    margin: 0;
+}
+
+
+body{
+    margin: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+header{
+    background-color: rgb(113, 51, 51);
+
 }
 
 a {
     color: white;
     text-decoration: none;
-    margin: 2px
+    margin: 0px;
+    padding: 0px 8px;
 }
 
+a:hover{
+    background-color: rgb(150, 50, 50);
+    padding: 5px;
+}
 
 span {
-    color: white;
     display: block;
     padding: 5px;
 }
@@ -62,6 +52,49 @@ span {
 
 .container {
     margin: 0 auto;
+}
+
+/*General Footer*/
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+/*social media */
+
+
+i {
+    font-size: 20px;
+}
+
+.list-social-media {
+    margin: 0px;
+    
+}
+
+li {
+    display: inline;
+    font-size:30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul {
+    padding: 10px 0px 5px 0px;
+}
+
+.contact{
+    display: block;
+}
+
+
+.footer{
+    padding-bottom: 10px;
+    
+    
 }
 
 
@@ -136,10 +169,6 @@ caption{
 
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
 
 .table {
     display: flex;
@@ -147,6 +176,38 @@ table, th, td {
     padding: 20px;
 }
 
+.content-table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 25px 0;
+
+}
+
+.content-table thead tr{
+    background-color: rgb(150, 50, 50);
+    color: white;
+}
+
+.content-table th,
+.content-table td {
+    padding: 8px 11px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-last-of-type(even){
+    background-color:#f3f3f3 ;
+}
+
+caption{
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: black;
+}
 
 /* SIGN UP */
 
@@ -212,84 +273,55 @@ form {
     padding-top: 15px;
 }
 
-/*General Footer*/
-
-footer{
-    text-align: center;
-    padding: 0px;
-    margin-top: 0px;
-    background-color: black;
-    padding-bottom: 10px;
-    
-}
-
-/*social media */
 
 
-i {
-    font-size: 20px;
-}
 
-.list-social-media {
-    margin: 0px;
-    
-}
-
-li {
-    display: inline;
-    font-size:30px;
-    list-style-type: none;
-    padding: 0;
-}
-
-ul {
-    padding: 10px 0px 5px 0px;
-}
-
-.contact{
-    display: block;
-}
-
-
-.footer{
-    padding-bottom: 10px;
-    
-    
-}
 
 
 /* Media queries */
 
+@media screen and (min-width:960px) {
 
+    /* Nav */
 
-@media screen and (min-width: 960px) {
-    .container{
-    max-width:1024px;
-    }
-    nav{
+    /* header{
         text-align: right;
         height: 70px;
         flex-direction: row;
-
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+        margin: 0;
+        } */
+    
+    #nav-logo{
+        display: inline;
     }
+   
+    .nav-items{
+        
+    }
+    
+    /* index */
     .display-flex{
         flex-direction: row;
         gap: 40px;
+        }
+
+    .container{
+        max-width:1024px;
+    }
+
+    /* Workout */
+    .table{
+        margin: 40px;
     }
     
-
-}
-
-
-@media screen and (min-width:960px) {
     .row{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        
-    }
-    .table{
-        margin: 40px;
     }
 }
+
