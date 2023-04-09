@@ -5,97 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Gym-fitnes</title>
+    <title>Fitness-Club</title>
 </head>
 <body>
-    <header class="nav-general">
-        <div class="container">
-    <nav>
-        <div class="fitness-club">
-            <h1 id="fitness-club">FITNESS CLUB</h1>
-        </div>
-
-        <div class="nav-logo">
-            <a href="index.html">Home</a>
-            <a href="routines.html">Workout</a>
-            <a href="sign-up.html">Sign up</a>
-        </div> 
-    </nav>
-    </div>
+    <header>
+        <audio src="assets/audio/Lady_Gaga-Bloody_Mary.mp3" loop autoplay controls class="audio"></audio>
+        <h1 id="fitness-club">FITNESS CLUB</h1>
+        <nav>
+            <div class="nav-logo">
+                <a href="index.html">Home</a>
+                <a href="wourkout.html">Workout</a>
+                <a href="sign-up.html">Sign up</a>
+            </div> 
+        </nav>
     </header>
     
 
     <section class="section-background">
-        <div class="container">
-       
-        <div class="box-price" id="box-left">
-            
-            <div class="box-signup">
+    <div class="container" id="signup-container">
+    
+    <div class="row-prices">
+        <div class="box-price">
+            <div class="box-signup" id="box-left">
                 <span class="banner">FITNESS CLUB</span>
                 <h2 class="box-text">MONTHLY MEMBERSHIP</h2>
                 <h2>€ 35</h2>
             </div>
         </div>
         
-        <div>
-            <img class="image" src="/assets/images/people-gym-left.jpg" alt="people training at the gym">
-        </div>
-
-
-
-
-        <div class="box-price" id="box-right">
-            
-            <div class="box-signup">
+        <div class="box-price" >
+            <div class="box-signup" id="box-right">
                 <span class="banner">FITNESS CLUB</span>
                 <h2 class="box-text">ANUAL MEMBERSHIP</h2>
                 <h2>€ 350</h2>
             </div>
         </div>
+    </div>
 
+    <div class="row-prices">
         <div>
             <img class="image" src="/assets/images/people-gym-right.jpg" alt="people seated the gym">
         </div>
 
-        <div class="box-price" id="box-signup">
-            
-            <div class="box-signup" id="form-box">
-                <span class="banner">FITNESS CLUB</span>
-                <form method="POST" action="contact.php">
+        <div>
+            <img class="image" src="/assets/images/people-gym-left.jpg" alt="people training at the gym">
+        </div>
+    </div>
 
-                    <div class="label">
-                        <label for="fullname">Full Name: </label>
-                        <input type="text" id="fullname" name="fullname" required>
-                    </div>
+        <div class="row-workout">
+            <div class="box-price" id="box-signup">
+                <div class="box-signup" id="form-box">
+                    <span class="banner">FITNESS CLUB</span>
+                    <form method="POST" action="contact.php">
 
-                    <div class="label">
-                        <label for="phone">Phone: </label>
-                        <input type="number" id="phone" name="phone" required>
-                    </div>
+                        <div class="label">
+                            <label for="fullname">Full Name: </label>
+                            <input type="text" id="fullname" name="fullname" required>
+                        </div>
 
-                    <div class="label">
-                        <label for="email">E-Mail: </label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
 
-                    <div>
-                        <legend>Membership:</legend>
-                        <label for="monthly">Monthly: </label>
-                        <input type="radio" id="monthly" name="membership">
-                    
-                        <label for="anual">Anual:</label>
-                        <input type="radio" id="anual" name="membership">
-                    </div>
+                        <div class="label">
+                            <label for="phone">Phone: </label>
+                            <input type="number" id="phone" name="phone" required>
+                        </div>
 
-                    <div class="label" id="submit">
-                        <input type="submit">
-                    </div>
-                </form>
+                        <div class="label">
+                            <label for="email">E-Mail: </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div>
+                            <legend class="legend-membership">MEMBERSHIP</legend>
+                            <label for="monthly">Monthly: </label>
+                            <input type="radio" id="monthly" name="membership">
+                        </div>
+
+                        <div>
+                            <label for="anual">Anual:</label>
+                            <input type="radio" id="anual" name="membership">
+                        </div>
+
+                        <div class="label" id="submit">
+                            <input type="submit">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
-
-
+    </div>
     </section>
   
     <footer>
