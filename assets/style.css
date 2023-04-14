@@ -162,7 +162,8 @@ ul {
     height: 180px;
     width: 270px;
     margin: 0;
-    padding: 20px;
+    padding: 0px;
+    border: white 5px solid;
 }
 
 .container-routine{
@@ -225,6 +226,7 @@ caption{
 /********************* SIGN UP *********************/
 
 
+
 .box-price {
     display: flex;
     justify-content: center;
@@ -284,8 +286,19 @@ form {
     font-size: 18px;
 }
 
+.images-signup{
+    padding: 0px;
+    height: 180px;
+    width: 270px;
+    margin: 10px;
+    border: 4px solid white;
+}
 
-
+.row-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /********************* Media queries *********************/
@@ -373,6 +386,17 @@ form {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .row-images{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .images-signup{
+        width: 700px;
+        height: 300px;
+        padding: 0px;
     }
 }
 
