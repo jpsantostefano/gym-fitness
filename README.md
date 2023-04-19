@@ -1,3 +1,9 @@
+# FITNESS CLUB
+
+What the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+This Project is aimed at anyone who wants to start doing physical activity, bodybuilding, fitness and even mindfulness. It gives you the possibility to start from scratch without knowledge or experience. It includes a section of a recommended workout to start with and a section to sign up commenting on the price of the fee.
+You can find all the necessary information about our facilities, services and schedules. At Fitness Club, we focus on providing a friendly and safe environment so you can achieve your fitness goals.
+
 ## Existing Features
 - Sound controler
     - This feature auto play the song Lady Gaga - Bloody Mary (Soner Karaca remix) and it has a control tool bar to pause and play the song. You can also low or mute the volume.
