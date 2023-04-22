@@ -20,6 +20,7 @@ nav {
     text-align: center;
     color: white;
     padding-top: 20px;
+    font-size: 30px;
 }
 
 body{
@@ -306,7 +307,7 @@ form {
    #fitness-club{
     display: flex;
     align-items: center;
-    padding: 0px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
    }
 
     /* index */
