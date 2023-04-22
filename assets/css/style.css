@@ -50,7 +50,7 @@ span {
 }
 
 .section-background {
-    background-image: url("https://raw.githubusercontent.com/jpsantostefano/gym-fitness/b89147f2c41fdf8edc69518b2ae9d297e90fb844/assets/images/background.webp");
+    background-image: url("/assets/images/gym-background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
