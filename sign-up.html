@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Juan Santostefano">
+    <meta name="description" content="Discover our gym with high-quality facilities and expert instructors. We offer a wide variety of classes and programs to help you set your fitness goals. Subscribe now and start your transformation!">
+    <meta name="keywords" content="gym, workout, fitness, health, sport">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Fitness-Club</title>
 </head>
+
 <body>
+
     <header>
         <audio src="assets/audio/Lady_Gaga-Bloody_Mary.mp3" loop controls class="audio"></audio>
         <h1 id="fitness-club">FITNESS CLUB</h1>
@@ -20,78 +25,62 @@
         </nav>
     </header>
     
-
     <section class="section-background">
-    <div class="container" id="signup-container">
-    
-    <div class="row-prices">
-        <div class="box-price">
-            <div class="box-signup" id="box-left">
-                <span class="banner">FITNESS CLUB</span>
-                <h2 class="box-text">MONTHLY MEMBERSHIP</h2>
-                <h2>€ 35</h2>
+        <div class="container" id="signup-container">
+            <div class="row-prices">
+                <div class="box-price">
+                    <div class="box-signup" id="box-left">
+                        <span class="banner">FITNESS CLUB</span>
+                        <h2 class="box-text">MONTHLY MEMBERSHIP</h2>
+                        <h2>€ 35</h2>
+                    </div>
+                </div>
+                <div class="box-price" >
+                    <div class="box-signup" id="box-right">
+                        <span class="banner">FITNESS CLUB</span>
+                        <h2 class="box-text">ANUAL MEMBERSHIP</h2>
+                        <h2>€ 350</h2>
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <div class="box-price" >
-            <div class="box-signup" id="box-right">
-                <span class="banner">FITNESS CLUB</span>
-                <h2 class="box-text">ANUAL MEMBERSHIP</h2>
-                <h2>€ 350</h2>
+            <div class="row-images">
+                <img class="images-signup"  src="assets/images/people-gym-right.webp" alt="people-seated-the-gym">
+                <img class="images-signup"  src="assets/images/people-gym-left.webp" alt="people-training-at-the-gym">
             </div>
-        </div>
-    </div>
-
-    <div class="row-images">
-        
-            <img class="images-signup"  src="assets/images/people-gym-right.jpg" alt="people-seated-the-gym">
-        
-            <img class="images-signup"  src="assets/images/people-gym-left.jpg" alt="people-training-at-the-gym">
-        
-    </div>
-
-        <div class="row-workout">
-            <div class="box-price" id="box-signup">
-                <div class="box-signup" id="form-box">
-                    <span class="banner">FITNESS CLUB</span>
-                    <form method="POST" action="contact.php">
-
-                        <div class="label">
-                            <label for="fullname">Full Name: </label>
-                            <input type="text" id="fullname" name="fullname" required>
-                        </div>
-
-
-                        <div class="label">
-                            <label for="phone">Phone: </label>
-                            <input type="number" id="phone" name="phone" required>
-                        </div>
-
-                        <div class="label">
-                            <label for="email">E-Mail: </label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-
-                        <div>
-                            <legend class="legend-membership">MEMBERSHIP</legend>
-                            <label for="monthly">Monthly: </label>
-                            <input type="radio" id="monthly" name="membership">
-                        </div>
-
-                        <div>
-                            <label for="anual">Anual:</label>
-                            <input type="radio" id="anual" name="membership">
-                        </div>
-
-                        <div class="label" id="submit">
-                            <input type="submit">
-                        </div>
-                    </form>
+            <div class="row-workout">
+                <div class="box-price" id="box-signup">
+                    <div class="box-signup" id="form-box">
+                        <span class="banner">FITNESS CLUB</span>
+                        <form method="POST" action="https://formdump.codeinstitute.net">
+                            <div class="label">
+                                <label for="fullname">Full Name: </label>
+                                <input type="text" id="fullname" name="fullname" required>
+                            </div>
+                            <div class="label">
+                                <label for="phone">Phone: </label>
+                                <input type="number" id="phone" name="phone" required>
+                            </div>
+                            <div class="label">
+                                <label for="email">E-Mail: </label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div>
+                                <legend class="legend-membership">MEMBERSHIP</legend>
+                                <label for="monthly">Monthly: </label>
+                                <input type="radio" id="monthly" name="membership" value="monthly">
+                            </div>
+                            <div>
+                                <label for="anual">Anual:</label>
+                                <input type="radio" id="anual" name="membership" value="anual">
+                            </div>
+                            <div class="label" id="submit">
+                                <input type="submit">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-
-    </div>
     </section>
   
     <footer>
@@ -111,15 +100,14 @@
                 </li>
             </ul>
         </div>
-
-      
-        
         <div>
             <span>Contact:</span>
             <span>78 Camden Street Lower, Dublin 2</span>
             <span>+353 87 740 4422</span>
         </div>
     </footer>
+
     <script src="https://kit.fontawesome.com/2b767788b3.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
